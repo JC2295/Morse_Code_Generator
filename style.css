@@ -4,6 +4,27 @@
     padding: 0;
 }
 
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    width: 400px;
+    height: 200px;
+}
+
+#morseBox{
+    width: 400px;
+    height: 200px;
+    border: solid black 2px;
+}
+
 /* For Desktop View */
 @media screen and (min-width: 1024px) {
     
